@@ -5,9 +5,9 @@ let somatotal = 0;
 let nomeA;
 let nomeB;
 let nomeC;
-let precoA = 0;
-let precoB = 0;
-let precoC = 0;
+let precoA;
+let precoB;
+let precoC;
 function Escolha(elemento){
 return document.querySelector(`.${elemento}`)
 }
