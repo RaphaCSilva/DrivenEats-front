@@ -44,8 +44,8 @@ function marcarC(opcaoclicada) {
     document.querySelector(".textocomselecao").classList.remove("textocomselecao");
   }
 } 
-function selecionar(){
+function selecionar(url){
   if (somatotal === 3){
-    alert("opa");
+    window.open("https://wa.me/5521998277404?text=ME%20DA%20COMIDA", '_blank');
   }
 }
